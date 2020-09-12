@@ -6,6 +6,6 @@ Resources:
     Type: "AWS::SSM::ResourceDataSync"
     Properties:
       SyncName: "Central"
-      BucketName: "central-ssm-resources-data-026625820024"
+      BucketName: "central-ssm-resources-data-1234567890"
       BucketRegion: "us-east-1"
       SyncFormat: "JsonSerDe"
