@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Enable AWS System Manager Resource Data Sync
+
+Resources:
+  BasicResourceDataSync: 
+    Type: "AWS::SSM::ResourceDataSync"
+    Properties:
+      SyncName: "Central"
+      BucketName: "central-ssm-resources-data-026625820024"
+      BucketRegion: "us-east-1"
+      SyncFormat: "JsonSerDe"
